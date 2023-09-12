@@ -1,8 +1,17 @@
+:root {
+	--font-clr: rgb(32, 31, 31);
+	--bg-clr: rgb(246, 242, 242);
+}
+
 * {
 	box-sizing: border-box;
 	/* border: 1px solid black; */
 	margin: 0;
 	padding: 0;
+}
+
+html {
+	background-color: var(--bg-clr);
 }
 
 .App {
@@ -11,14 +20,17 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 1.2rem;
+	color: var(--font-clr);
+	width: 90%;
+	margin: 0 auto;
 }
 
 .nav {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
-	width: 90%;
 	margin: 1.5rem;
+	width: 100%;
 }
 
 .nav-menu {
