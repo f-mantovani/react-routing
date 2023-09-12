@@ -4,6 +4,7 @@ import Home from './components/Home.jsx'
 import { Route, Routes } from 'react-router-dom'
 import Projects from './components/Projects.jsx'
 import projectsData from './projects.json'
+import ProjectDetails from './components/ProjectDetails.jsx'
 
 function App() {
 	return (
@@ -12,6 +13,7 @@ function App() {
 			<Routes>
 				<Route path='/' element={<Home />} />
 				<Route path='/projects' element={<Projects projects={projectsData} />} />
+				<Route path='/projects/:id' element={<ProjectDetails projects={projectsData} />} />
 				<Route path='*' element={<h1>Error Page</h1>} />
 			</Routes>
 		</div>
