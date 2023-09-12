@@ -1,7 +1,6 @@
 import { Link, NavLink } from 'react-router-dom'
 
 const Navbar = () => {
-	const handleClassName = ({ isActive }) => (isActive ? 'selected' : '')
 	return (
 		<div className='nav'>
 			<h2>
