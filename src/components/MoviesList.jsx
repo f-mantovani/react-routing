@@ -3,11 +3,13 @@ import MovieCard from './MovieCard.jsx'
 
 const MoviesList = ({ movies }) => {
 	return (
-		<div className='movie-list'>
-			{movies.map(movie => (
-				<MovieCard key={movie.title + movie.year} {...movie} />
-			))}
-		</div>
+		<>
+			<h1>Movies List</h1>
+			<div className='movie-list'>
+				<br />
+				{movies && movies.map(movie => <MovieCard key={movie.title + movie.year} {...movie} />)}
+			</div>
+		</>
 	)
 }
 export default MoviesList

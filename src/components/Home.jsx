@@ -1,7 +1,7 @@
 const Home = () => {
 	return (
 		<>
-			<h1>This is our home Component</h1>
+			<h1>Home</h1>
 			<br />
 			<section>
 				You should render different components depending on the link that the user clicks

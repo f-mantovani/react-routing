@@ -35,5 +35,18 @@ html {
 
 .nav-menu {
 	display: flex;
-	gap: 0.5rem;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.selected {
+	outline: 1px solid var(--font-clr);
+	border-radius: 4px;
+	padding: 0.15rem 0.25rem;
+}
+
+.nav a {
+	color: var(--font-clr);
+	text-decoration: none;
+	cursor: pointer;
 }
