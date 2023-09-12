@@ -7,7 +7,7 @@ const MoviesList = ({ movies }) => {
 			<h1>Movies List</h1>
 			<div className='movie-list'>
 				<br />
-				{movies && movies.map(movie => <MovieCard key={movie.title + movie.year} {...movie} />)}
+				{movies && movies.map(movie => <MovieCard key={movie.id} {...movie} />)}
 			</div>
 		</>
 	)
