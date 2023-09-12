@@ -3,7 +3,7 @@ const Navbar = () => {
 		<div className='nav'>
 			<h2>React Routing</h2>
 			<div className='nav-menu'>
-				<span>Projects</span>
+				<span>Movies</span>
 				<span>About</span>
 			</div>
 		</div>
