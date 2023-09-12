@@ -38,7 +38,7 @@ html {
 	gap: 0.75rem;
 }
 
-.selected {
+.active {
 	outline: 1px solid var(--font-clr);
 	border-radius: 4px;
 	padding: 0.15rem 0.25rem;

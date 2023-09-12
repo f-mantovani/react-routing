@@ -1,10 +1,14 @@
+import { Link, NavLink } from 'react-router-dom'
+
 const Navbar = () => {
 	return (
 		<div className='nav'>
-			<h2>React Routing</h2>
+			<h2>
+				<Link to='/'>React Routing</Link>
+			</h2>
 			<div className='nav-menu'>
-				<span>Movies</span>
-				<span>About</span>
+				<NavLink to='/movies'>Movies</NavLink>
+				<NavLink to='/about'>About</NavLink>
 			</div>
 		</div>
 	)
