@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import '../styles/MovieCard.styles.css'
 
 const MovieCard = ({ id, title, cast, year, genres }) => {
@@ -25,6 +26,7 @@ const MovieCard = ({ id, title, cast, year, genres }) => {
 						</span>
 					))}
 			</div>
+			<Link to={`/movies/${id}`}>See details</Link>
 		</div>
 	)
 }
